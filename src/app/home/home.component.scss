@@ -1,7 +1,7 @@
 .container-geral{}
 .container-topo{
     display: flex;
-    border: 1px solid pink;
+    padding: 35px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -9,19 +9,21 @@
     font-size: 40px;
     font-weight: bold;
     color: #5e2e21;
+
 }
 .btn-direita{
     display: flex;
-    gap: 10px;  
-    flex-direction: row ;
-    justify-content: center ;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    color: #5e2e21;
+    font-size: 30px;
 
 }
  .container-esquerda{
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
     background-color: #f3f2f0;
     align-items: center;
     height: 100vh;
@@ -31,52 +33,67 @@
   
  }
 .btn-menu{
-    gap: 10px;
+    gap: 27px;
     display: flex;
- flex-direction: row;
- border: none;
- font-size: 16px;
- font-weight: bold;
- color: black;
+    flex-direction: row;
+    border: none;
+    font-weight: bold;
+    color: #5e2e21;
     cursor: pointer;
+    font-size: 45px;
 }
-.btn-tudo{
-         display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  
-}
-.btn-promocao{
+.btn-tudo{   
      display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  
-    }
-.btn-principal{      display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  }
-.btn-aperitivos{      display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  }
-.btn-bebida{      display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  }
-.btn-sobremesa{      display: flex;
-    border-radius: 15px ;
-    border :1px solid #867776;
-    padding: 5px;
-    color: black;
-    font-weight: bold;  }
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.btn-promocao{   
+     display: flex;
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+   
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+.btn-principal{   
+     display: flex;
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+.btn-aperitivos{   
+     display: flex;
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+.btn-bebida{   
+     display: flex;
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+.btn-sobremesa{   
+    display: flex;
+    border-radius: 55px;
+    border: 1px solid #867776;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
