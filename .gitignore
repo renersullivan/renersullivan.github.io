@@ -1,2 +1,89 @@
-.DS_Store
+# Angular build outputs
+/dist
+/browser
+/server
+/.angular
+
+# Angular cache (Angular 16+)
+/.angular/cache
+
+# Compiled output
+out-tsc/
+build/
+tmp/
+
+# Node dependencies
+/node_modules/
+
+# Environment files
+src/environments/*.ts
+!src/environments/environment.example.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor directories
 .vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager
+/.pnp
+.pnp.js
+.pnp.cjs
+.pnp.mjs
+.pnpm-store
+npm-packages-offline-cache
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/patches
+
+# Compiled JavaScript (caso use outputDir custom)
+**/*.js
+**/*.mjs
+**/*.cjs
+**/*.map
+
+# Testing
+coverage/
+test-results/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Env files
+.env
+.env.*.local
+
+# Local tools
+/.firebase/
+.firebaserc
+/.sass-cache/
+.sass-cache
+
+# Vite (Angular 17+)
+.vite
+vite.config.ts.timestamp*
+
+# Misc
+*.bak
+*.backup
+*.old
